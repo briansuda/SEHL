@@ -1,0 +1,50 @@
+/* Core elements and layout elements. */
+body{
+ background:#fff;
+ color:#333;
+ font:76%/1.5 'Bitstream Vera Sans',Verdana,Arial,sans-serif;
+ margin:0;
+ padding:4em 0;
+ text-align:center;
+}
+#wrap{
+ margin:0 auto;
+ max-width:95%;
+ text-align:left;
+ width:44em
+}
+/* Block elements. */
+h1{
+ font-size:1.6em
+}
+h2{
+ font-size:1.4em
+}
+h3{
+ font-size:1.1em
+}
+div.authors{
+ font-size:1.1em;
+ font-weight:bold
+}
+h1+p,h2+p,h3+p,h4+p,h5+p,h6+p,div.authors+p{
+ text-indent:0
+}
+*+p{
+ text-indent:2em
+}
+p.centre{
+ text-align:center;
+ text-indent:0
+}
+pre{
+ font-family:'Bitstream Vera Sans Mono',Monaco,'Courier New',Courier,monospace
+}
+abbr,acronym{
+ border-bottom:1px dotted #ddd;
+ cursor:help
+}
+/* Inline elements. */
+code,samp{
+ font-family:'Bitstream Vera Sans Mono',Monaco,'Courier New',Courier,monospace
+}
