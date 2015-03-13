@@ -1,4 +1,4 @@
-Search Engine Highlight Readme
+#Search Engine Highlight Readme
 
 brian suda
 http://suda.co.uk
@@ -7,9 +7,9 @@ There are usage instruction in the PHP file about how to setup the function. Mor
 
 I have had this running on a version of PHP5 and PHP4.3
 
-UPDATES
+##UPDATES
 This file maybe updated with faster more efficient regular expressions or other functions to improve the highlighting or to fix bugs or add additional search engine query strings, if so the official webpage for the SEHL file is:
 http://suda.co.uk/project/SEHL/
 
-COPYRIGHT
+##COPYRIGHT
 This is distributed under the GNU Lesser General Public License. For more information please visit: http://www.gnu.org/licenses/lgpl.html
